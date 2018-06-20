@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+  }
+.ui-date-picker {
+    width: 240px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    font-family: serif, cursive, fantasy
+  }
+  
+.ui-date-picker .header{
+    width: 240px;
+    height: 30px;
+    line-height: 30px;
+    background: #ca2b2b;
+    color: #fff;
+    text-align: center;
+}
+.ui-date-picker .header span{
+    display: inline-block;
+}
+.ui-date-picker .header .caret{
+    border-width: 8px 10px 8px 10px;
+    border-style: solid;
+} 
+.ui-date-picker .header .caret-left{
+    margin-right: 60px;
+    border-color: transparent #fff transparent transparent;/*透明 白 透明 透明 */
+}
+.ui-date-picker .header .caret-right{
+    margin-left: 60px;
+    border-color: transparent transparent transparent #fff;/*透明 白 透明 透明 */
+}
+   
+.ui-date-picker .panel {
+    width: 100%;
+    text-align: center;
+    background-color: #fff;
+}
+.ui-date-picker .panel th {
+    line-height: 2;
+}
+.ui-date-picker .panel td {
+    line-height: 1.2
+}
+.ui-date-picker .pre-month,
+.ui-date-picker .next-month {
+    color: #eee;
+}
+.ui-date-picker .cur-month {
+    cursor: pointer;
+}
+.ui-date-picker .cur-month:hover {
+    background-color: #ccc;
+    color: #fff;
+}
+.ui-date-picker .cur-date {
+    color: #CA2B2B;
+}
